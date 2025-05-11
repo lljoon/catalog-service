@@ -1,4 +1,3 @@
-drop table if exists book;
 create table book (
     id                  bigserial primary key not null,
     author              varchar(255) not null,
@@ -8,4 +7,4 @@ create table book (
     created_date        timestamp not null,
     last_modified_date  timestamp not null,
     version             integer not null
-);
+)
